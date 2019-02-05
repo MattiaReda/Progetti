@@ -30,7 +30,7 @@ public class NBValidateXML {
             System.out.println("Errore nel file");
         }
         // iterazione della lista e visualizzazione degli oggetti
-        System.out.println("Link trovati --> " + libri.size());
+        System.out.println("Link trovati --> " + libri.size()+".");
         
         
         

@@ -14,6 +14,7 @@ public class Libro {
         this.titolo = "";
         this.autore = "";
         this.prezzo = 0;
+        
     }
 
     public Libro(String link, String txt) {
