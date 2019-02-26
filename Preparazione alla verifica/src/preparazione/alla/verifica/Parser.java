@@ -59,10 +59,12 @@ public class Parser {
     public void TD_Element(Element e)
     {
         NodeList TDlist = element.getElementsByTagName("td");
+        List lista;
         
         if (TDlist != null && TDlist.getLength() > 0) {
-                    for (int k = 0; k < TDlist.getLength(); k++) {
-                        TD = (Element) TDlist.item(k);
+                    for (int i = 0; i < TDlist.getLength(); i++) {
+                        TD = (Element) TDlist.item(i);
+                        TD
                         
                     }
                 }
